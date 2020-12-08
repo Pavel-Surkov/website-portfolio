@@ -1,5 +1,5 @@
 body {
-	background-color: linear-gradient(180deg, #efd2fe, #eff1fe, white);
+	background-color: #eff5fe;
 	height: auto;
 }
 span {
@@ -50,6 +50,7 @@ footer {
 	margin-top: 30px;
 }
 .prj {
+	justify-content: space-between;
 	transition: 1s;
 }
 .img-projects {
@@ -64,10 +65,25 @@ footer {
 	transform: scale(0.95);
 }
 .img-projects:hover {
-	transform: scale(1.075);
+	transform: scale(1.1);
 }
 .change {
 	color: red;
+}
+
+@media screen and (max-width: 1200px) {
+	.img-projects {
+		align-self: center;
+		max-width: 60%;
+		align-self: center;
+	}
+	.middle-image {
+		margin: 20px 0 20px 0; 
+	}
+	.prj {
+		flex-direction: column;
+	}
+
 }
 
 
