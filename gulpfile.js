@@ -10,3 +10,5 @@ gulp.task('sass-compile', function() {
 	.pipe(sourcemaps.write('./'))
 	.pipe(gulp.dest('./css/'))
 })
+
+//CMD: gulp sass-compile - запускать из папки сайт
