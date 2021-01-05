@@ -1,0 +1,118 @@
+body {
+  background-color: #eff5fe;
+  height: auto; }
+
+span {
+  margin: 10px; }
+
+footer {
+  justify-content: center;
+  color: gray; }
+
+.prj {
+  justify-content: space-between;
+  transition: 1s; }
+  .prj:hover {
+    transform: scale(0.95); }
+
+.container-fluid {
+  padding: 10px;
+  height: 735px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.panel {
+  padding: 0;
+  padding-left: 15px;
+  height: 42px; }
+
+.btn-primary {
+  min-width: 15%;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #3da0fc;
+  transition: backgroung-color, border-color 0.3s 
+ ease-in, color 0.3s linear; }
+  .btn-primary:hover {
+    border-color: #00488c; }
+
+.me {
+  margin-top: 30px; }
+
+.page-header {
+  text-align: right;
+  margin: 15px 0 0 15px;
+  margin-left: auto; }
+  .page-header > a {
+    color: black;
+    text-decoration: none;
+    margin: 10px; }
+
+.main {
+  position: absolute; }
+
+.img-projects {
+  max-width: 332px;
+  padding: 6px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 1s; }
+  .img-projects:hover {
+    transform: scale(1.1); }
+
+.delete-in-future {
+  color: gray; }
+
+@media screen and (max-width: 1200px) {
+  .img-projects {
+    max-width: 80%; }
+  .middle-image {
+    margin: 30px 0 30px 0; }
+  .prj {
+    flex-direction: column; }
+  .a-first .a-center .a-last {
+    height: 60%; }
+  .text-center {
+    align-self: center;
+    max-width: 80%; } }
+
+@media screen and (max-width: 770px) {
+  .btn-primary {
+    box-sizing: content-box; }
+  .panel {
+    justify-content: space-between; }
+  .text-center {
+    max-width: 100%; }
+  .img-projects {
+    max-width: 100%; } }
+
+@media screen and (max-width: 420px) {
+  .page-header {
+    flex-direction: column; }
+  .prj {
+    flex-direction: column; }
+  .panel {
+    justify-content: space-between; }
+  .img-projects {
+    padding: 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 100%; }
+  .text-center {
+    max-width: 100%; }
+  .prj:hover {
+    transform: scale(1); }
+  .img-projects:hover {
+    transform: scale(1); }
+  .flex-last {
+    margin-left: 0 !important;
+    margin-top: 10px; }
+  .flex-first {
+    margin-bottom: 10px; }
+  .btn-primary {
+    min-width: 65px; } }
+
+/*# sourceMappingURL=style.css.map */
